@@ -12,7 +12,7 @@ public class tempConvertFinal {
         return reader.nextFloat();
     }
 
-    // Method to ask for the unit of the temperature (Fahrenheit or Celsius)
+    // Method to ask for the unit of the temperature (Fahrenheit/Celsius)
     private static String askUnit() {
         while(true) {
             System.out.println("Please enter the unit of the temperature value, the choices are: F or C");
